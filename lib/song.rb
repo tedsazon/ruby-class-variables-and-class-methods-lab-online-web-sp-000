@@ -42,7 +42,6 @@ class Song
   def self.artist_count
     arist_count = {}
     @@artists.each do |artist|
-     binding.pry
       if artist_count[artist]
         artist_count[artist] += 1
       else
