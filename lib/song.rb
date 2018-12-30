@@ -39,7 +39,6 @@ class Song
     @@artists.uniq
   end
 
-
   def self.artist_count
     arist_count = {}
     @@artists.each do |artist|
